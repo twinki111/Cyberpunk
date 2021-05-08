@@ -6,7 +6,7 @@
     --main-black: #000000;
 }
 html, body{
-    background-image: url("https://wallpapercave.com/wp/wp8713091.jpg");
+    background-image: url("./img/background-back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@ html, body{
     background-color: var(--main-black);
     border-radius: 6px;
     height:98%;
-    background-image: url("https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Now_arriving_at_destination-en.jpg");    
+    background-image: url("./img/cyber-background.jpg");    
 }
 .shaped{
     clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 100% 100%, 34% 100%, 0 68%, 0% 20%);
@@ -91,7 +91,7 @@ nav{
     font-family: 'Audiowide', cursive;
     height: 350px ;
     padding: 35px 35px;
-    background-image: url("https://wallpapercave.com/wp/wp8713091.jpg");
+    background-image: url("./img/background-back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
