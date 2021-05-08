@@ -16,8 +16,7 @@ html, body{
     background-color: #000000;
     border-radius: 6px;
     height:98%;
-    background-image: url("https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Now_arriving_at_destination-en.jpg");
-    
+    background-image: url("https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Now_arriving_at_destination-en.jpg");    
 }
 .shaped{
     clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 100% 100%, 34% 100%, 0 68%, 0% 20%);
@@ -32,9 +31,7 @@ nav{
     display: flex;
     justify-content: space-between;
     font-family: 'Orbitron', sans-serif;
-    margin-bottom: 55px;
-
-    
+    margin-bottom: 55px;   
 }
 .main-menu{
     margin: 0 15px;
@@ -100,7 +97,6 @@ nav{
 }
 .description p {
     color: #000000;
- 
 }
 .mini-logo{
     display: flex;
@@ -110,10 +106,8 @@ nav{
     position: absolute;
     right: 85px;
     top: 400px;
-
 }
 .icons {
-
     font-size: 30px;
     color: #04DAF6;
 }
