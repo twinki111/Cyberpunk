@@ -83,6 +83,13 @@ nav{
     flex-direction: row;
     justify-content: space-around;
 }
+.img-main{
+    padding: 0 10px;
+}
+.img-main img{
+    width: 300px;
+    height: 625px;
+}
 .description{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 87% 97%, 66% 98%, 40% 100%, 24% 93%, 0 100%);
     background-color:var(--main-yellow) ;
@@ -131,5 +138,9 @@ nav{
     font-family: 'Orbitron', sans-serif;
     height: 60px;
     width: 320px;
+    border: none;
+}
+.button-bottom:hover{
+    cursor: pointer;
     border: none;
 }

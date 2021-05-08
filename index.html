@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="brain.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
@@ -27,7 +28,7 @@
                 <h1>Cyberpunk "2077"</h1>
                 <p>Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character’s cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.</p>
             </div>
-            <div class="img-main"><img src="./img/cyber-character-avatar.png" alt="Character Visual"></div>
+            <div class="img-main"><img class="female" id="avatar" src="./img/cyber-character-avatar.png" alt="Character Visual"></div>
             <div class="mini-logo">
                 <a class="icons" target="_blank" href="https://www.facebook.com/CyberpunkGame"><ion-icon name="logo-facebook"></ion-icon></a>
                 <a class="icons" target="_blank" href="https://twitter.com/cyberpunkgame"><ion-icon name="logo-twitter"></ion-icon></a>
@@ -35,7 +36,7 @@
             </div>
         </div>
         <div class="char-bottom">
-            <button class="button-bottom">Change Avatar</button>
+            <button onclick="changeAvatar()" class="button-bottom">Change Avatar</button>
         </div>
     
     </div>
