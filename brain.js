@@ -2,7 +2,7 @@ function changeAvatar(){
     let avatarIMG=document.getElementById("avatar");
     let avatar=avatarIMG.className;
     if(avatar=='female'){
-        avatarIMG.src="./img/avatar-male.png";
+        avatarIMG.src="./img/male-avatar.png";
         avatarIMG.classList.remove("female");
         avatarIMG.classList.add("male");
     } else{
